@@ -1,0 +1,7 @@
+Toggle Show FOV = NUM 5
+Toggle Aimbot = HOME
+Toggle Trigger Bot = MB4
+Increase FOV = +
+Decrease FOV = -
+Toggle ESP Extras = Right Shift
+Destroy = END

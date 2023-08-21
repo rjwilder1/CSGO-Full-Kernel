@@ -1,0 +1,50 @@
+﻿D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Cheat Driver.vcxproj(120,5): warning MSB4011: "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\10.0.22621.0\WindowsDriver.Shared.props (352,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Cheat Driver.vcxproj(201,5): warning MSB4011: "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\10.0.22621.0\WindowsDriver.common.targets (1917,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Building 'Cheat Driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\CheatDriver.inf
+  Stamping [Version] section with DriverVer=07/24/2023,20.50.41.56
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\CheatDriver.inf(20-20): warning 2083: Section [sampleclassreg] not referenced or used.
+  Main.cpp
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Nt.h(15,2): warning C4091: 'typedef ': ignored on left of 'Vector2' when no variable is declared
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Nt.h(20,2): warning C4091: 'typedef ': ignored on left of 'Vector3' when no variable is declared
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Nt.h(237,1): warning C4273: 'CreateFontIndirectExW': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(4499,25): message : see previous definition of 'CreateFontIndirectExW'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Nt.h(252,1): warning C4273: 'CreateFontIndirectW': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(3818,27): message : see previous definition of 'CreateFontIndirectW'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Nt.h(282,7): warning C4273: 'CreateFontW': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(3827,26): message : see previous definition of 'CreateFontW'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Nt.h(326,11): warning C4189: 'statusAlloc': local variable is initialized but not referenced
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Misc.h(11,36): warning C4459: declaration of 'pid' hides global declaration
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Memory.h(5,7): message : see declaration of 'pid'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Misc.h(64,9): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Misc.h(159,14): warning C4459: declaration of 'pid' hides global declaration
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Memory.h(5,7): message : see declaration of 'pid'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Misc.h(238,42): warning C4459: declaration of 'pid' hides global declaration
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Memory.h(5,7): message : see declaration of 'pid'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Misc.h(273,9): warning C4459: declaration of 'pid' hides global declaration
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Memory.h(5,7): message : see declaration of 'pid'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Modules.h(33,17): warning C4101: 'name': unreferenced local variable
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Modules.h(84,17): warning C4101: 'name': unreferenced local variable
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(28,63): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(28,7): warning C4189: 'textSucess': local variable is initialized but not referenced
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(26,10): warning C4189: 'oldfont': local variable is initialized but not referenced
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(186,19): warning C4459: declaration of 'hdc' hides global declaration
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(96,5): message : see declaration of 'hdc'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(186,49): warning C4100: 'hbr': unreferenced formal parameter
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(200,6): warning C4189: 'healthWidth': local variable is initialized but not referenced
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Csgo.h(212,23): warning C4189: 'PlayerBase': local variable is initialized but not referenced
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Main.cpp(33,8): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'ULONG'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Main.cpp(33,8): warning C4302: 'type cast': truncation from 'HANDLE' to 'ULONG'
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Misc.h(209): warning C4715: 'GetKernelModuleBase': not all control paths return a value
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Drawing.h(129): warning C4715: 'SpoofWin32Thread': not all control paths return a value
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Csgo.h(90): warning C4715: 'SaveWhileLoop': not all control paths return a value
+     Creating library D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\x64\Release\CheatDriver.lib and object D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\x64\Release\CheatDriver.exp
+  Cheat Driver.vcxproj -> D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\x64\Release\CheatDriver.sys
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Cheat Driver.vcxproj(120,5): warning MSB4011: "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\10.0.22621.0\WindowsDriver.Shared.props (352,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Cheat Driver.vcxproj(201,5): warning MSB4011: "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\10.0.22621.0\WindowsDriver.common.targets (1917,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Done Adding Additional Store
+  Successfully signed: D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\x64\Release\CheatDriver.sys
+  
+  Driver is 'Universal'.
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Cheat Driver.vcxproj(120,5): warning MSB4011: "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\10.0.22621.0\WindowsDriver.Shared.props (352,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+D:\Code\Csgo-Full-kernel - Copy\CsgoFullKernel\Cheat Driver.vcxproj(201,5): warning MSB4011: "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\10.0.22621.0\WindowsDriver.common.targets (1917,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
